@@ -1,0 +1,24 @@
+.shared-empty-state {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.shared-empty-state-icon {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-inline: auto;
+  align-self: center;
+  flex: 0 0 auto;
+  opacity: 0.58;
+}
+
+.shared-empty-state-compact .shared-empty-state-icon {
+  width: 48px;
+  height: 48px;
+}
